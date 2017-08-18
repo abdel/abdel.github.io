@@ -1,0 +1,122 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+
+@import "minima";
+
+/* Base */
+/* ----------------------------------------------------------*/
+
+body {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  font-weight: 300;
+  background-color: #fdfdfd;
+}
+
+a         { color: #2a7ae2; text-decoration: none; }
+a:hover   { color: #000; text-decoration: underline; }
+a:visited { color: #205caa; }
+
+/* Layout Styles */
+/* ----------------------------------------------------------*/
+
+/* Site header */
+$site-header-height: 60px;
+
+.logo {
+  float: left;
+  margin-top: 10px;
+  margin-right: 10px;
+}
+
+.site-header {
+  min-height: $site-header-height;
+  background-color: white;
+  border-top: 5px solid #333;
+  border-bottom: 1px solid #e8e8e8;
+}
+
+.site-title,
+.site-title:hover,
+.site-title:visited {
+  z-index: 1;
+  float: left;
+  color: #333;
+  display: block;
+  font-size: 26px;
+  line-height: $site-header-height;
+  position: relative;
+  letter-spacing: -1px;
+}
+
+.site-nav {
+  float: right;
+  line-height: $site-header-height;
+}
+
+.site-nav .page-link {
+  color: #727272;
+  margin-left: 20px;
+  letter-spacing: -.5px;
+}
+
+/* Site footer */
+
+.svg-icon {
+  width: 16px;
+  height: 16px;
+  padding-right: 5px;
+  fill: #{$grey-color};
+  display: inline-block;
+  vertical-align: text-top;
+}
+
+.social-media-list {
+  li + li {
+    padding-top: 5px;
+  }
+}
+
+/* Home styles */
+/* ----------------------------------------------------------*/
+
+.post-list { list-style-type: none; }
+
+.post-list li { margin-bottom: 30px; }
+
+.post-list .post-link {
+  line-height: 1;
+  font-size: 20px;
+  letter-spacing: -1px;
+}
+
+.post-list .post-date {
+  display: block;
+  font-size: 15px;
+  color: #818181;
+}
+.post-list .post-excerpt {
+  display: block;
+  margin-top: 5px;
+}
+
+/* Post styles */
+/* ----------------------------------------------------------*/
+
+.post-title { margin: 10px 0 30px; }
+
+.post-header .post-title {
+  font-size: 36px;
+  letter-spacing: -1.75px;
+  line-height: 1;
+  font-weight: 300;
+  margin-bottom: 5px;
+}
+
+.post-header .meta {
+  font-size: 15px;
+  color: #818181;
+  margin-top: 5px;
+}

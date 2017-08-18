@@ -1,0 +1,37 @@
+<ul class="social-media-list">
+    {% if site.social_sites.github %}
+    <li>
+      <a href="https://github.com/{{ site.social_sites.github | cgi_escape | escape }}">
+        <svg class="svg-icon"><use xlink:href="/assets/icons.svg#github"></use></svg>
+        <span class="username">{{ site.social_sites.github | escape }}</span>
+      </a>
+    </li>{% endif %}
+    {% if site.social_sites.linkedin %}
+    <li>
+      <a href="https://www.linkedin.com/in/{{ site.social_sites.linkedin | cgi_escape | escape }}">
+        <svg class="svg-icon"><use xlink:href="/assets/icons.svg#linkedin"></use></svg>
+        <span class="username">{{ site.social_sites.linkedin | escape }}</span>
+      </a>
+    </li>{% endif %}
+    {% if site.social_sites.twitter %}
+    <li>
+      <a href="https://www.twitter.com/{{ site.social_sites.twitter | cgi_escape | escape }}">
+        <svg class="svg-icon"><use xlink:href="/assets/icons.svg#twitter"></use></svg>
+        <span class="username">{{ site.social_sites.twitter | escape }}</span>
+      </a>
+    </li>{% endif %}
+    {% if site.social_sites.medium %}
+    <li>
+      <a href="https://medium.com/@{{ site.social_sites.medium | cgi_escape | escape }}">
+        <svg class="svg-icon"><use xlink:href="/assets/icons.svg#medium"></use></svg>
+        <span class="username">{{ site.social_sites.medium | escape }}</span>
+      </a>
+    </li>{% endif %}
+    {% if site.rss %}
+    <li>
+      <a href="{{ 'feed.xml' | relative_url }}">
+        <svg class="svg-icon"><use xlink:href="/assets/icons.svg#rss"></use></svg>
+        <span>{{ site.rss | escape }}</span>
+      </a>
+    </li>{% endif %}
+  </ul>
