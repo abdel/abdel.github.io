@@ -1,27 +1,15 @@
 ---
 layout: post
-title:  "Hello world, again"
-date:   2017-08-18 08:50:53 +1000
-excerpt: "Moving my website and blog to Jekyll and GitHub Pages, plus few other updates."
+title: 'Hello world, again'
+date: '2017-08-25 08:50:53 +1000'
+excerpt: 'Moving my website and blog to Jekyll and GitHub Pages, plus few other updates.'
 draft: true
+published: false
 ---
-I've previously used Ghost for a while,
-You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
+I have been using Hugo for a while now, but the publishing process and the deployment setup with S3 was a bit too complicated that I just ended up not really posting anything. I decided to move everything over to Jekyll and simply use GitHub Pages in order to simplify things.
 
-To add new posts, simply add a file in the `_posts` directory that follows the convention `YYYY-MM-DD-name-of-post.ext` and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.
+In other news, I'm currently in my last semester of my Bachelor's degree at UTS. I've also recently joined the team at [Project AGI](https://agi.io/) to work on artifical general intelligence, so may be posting more about that in the near future but in the mean time check out our blog for interesting articles.
 
-Jekyll also offers powerful support for code snippets:
+As part of one the subjects I'm doing this term, I'll be developing an immutable professional journal application using Xamarin, C# and Azure with a group. It will be a cross-platform application using Xamarin.Forms, likely only iOS and Android though. I'll be open-sourcing the code on GitHub after marking, etc.
 
-{% highlight ruby %}
-def print_hi(name)
-  puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
-{% endhighlight %}
-
-Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
-
-[jekyll-docs]: https://jekyllrb.com/docs/home
-[jekyll-gh]:   https://github.com/jekyll/jekyll
-[jekyll-talk]: https://talk.jekyllrb.com/
+I have also been spending time getting into reinforcement learning
