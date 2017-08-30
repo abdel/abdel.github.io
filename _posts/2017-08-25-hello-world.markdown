@@ -4,6 +4,7 @@ title: 'Hello world, again'
 date: '2017-08-25 08:50:53 +1000'
 excerpt: 'Moving my website and blog to Jekyll and GitHub Pages, plus few other updates.'
 draft: false
+comments: true
 published: true
 ---
 I have been using Hugo for a while now, but the publishing process and the deployment setup with S3 was a bit too complicated that I just ended up not really posting anything. I decided to move everything over to Jekyll and simply use GitHub Pages in order to simplify things. I'll also be experimenting with importing interesting stories to my [Medium](https://medium.com/@abdel_m) as well.
