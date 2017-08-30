@@ -1,3 +1,10 @@
+---
+layout: page
+title: Work
+permalink: /work/
+published: true
+---
+
 ### Projects
 - [Brackets and Ladders](https://github.com/abdel/brackets-and-ladders): an application that allows gamers to setup teams and participate in tournaments
 - [Betterplace Egypt](https://github.com/abdel/betterplace): an application that aggregates and visualises data about crowd-funded projects in Egypt, powered by the betterplace.org API
