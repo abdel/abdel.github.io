@@ -6,7 +6,7 @@ excerpt: 'Moving my website and blog to Jekyll and GitHub Pages, plus few other 
 draft: false
 published: true
 ---
-I have been using Hugo for a while now, but the publishing process and the deployment setup with S3 was a bit too complicated that I just ended up not really posting anything. I decided to move everything over to Jekyll and simply use GitHub Pages in order to simplify things.
+I have been using Hugo for a while now, but the publishing process and the deployment setup with S3 was a bit too complicated that I just ended up not really posting anything. I decided to move everything over to Jekyll and simply use GitHub Pages in order to simplify things. I'll also be experimenting with importing interesting stories to my [Medium](https://medium.com/@abdel_m) as well.
 
 In other news, I have recently joined the team at [Project AGI](https://agi.io/) to work on artifical general intelligence, so may be posting more about that in the near future but in the mean time check out our blog for interesting articles. I'm also in my last semester of my Bachelor's degree at UTS.
 
