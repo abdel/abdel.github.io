@@ -35,9 +35,16 @@ google_analytics: UA-11942032-7
 
 # Build settings
 markdown: kramdown
+permalink: pretty
 theme: minima
 plugins:
   - jekyll-feed
+
+highlighter: rouge
+kramdown:
+  input: GFM
+  auto_ids: true
+  syntax_highlighter: rouge
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
