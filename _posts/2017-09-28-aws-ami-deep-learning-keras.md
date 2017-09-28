@@ -62,4 +62,4 @@ Next, edit the `/etc/rc.local` file and add the following line before `exit 0`:
 su ubuntu -c 'bash /home/ubuntu/jupyter_start.sh'
 ```
 
-Let me know if you encounter any issues, or have any useful tips for using the AWS Deep Learning AMI!
+Let me know if you encounter any issues, or have any additional useful tips!
