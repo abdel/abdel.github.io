@@ -1,7 +1,7 @@
 ---
 published: true
 title: 'AWS Deep Learning AMI with Keras'
-date: '2017-09-28 08:50:53 +1000'
+date: '2017-09-28'
 excerpt: A few tips for using the AWS Deep Learning AMI
 draft: false
 layout: post
