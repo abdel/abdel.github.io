@@ -54,4 +54,11 @@ export PATH="$PATH:/home/ubuntu/anaconda2/bin"
 jupyter notebook --notebook-dir=/home/ubuntu/ --profile=nbserver > /tmp/ipynb.out 2>&1 &
 ```
 
-You can change `notebook-dir` to the location of your Jupyter notebooks.
+Change `anaconda2` to `anaconda3` if you're using Python 3. You can also change `notebook-dir` to the location of your Jupyter notebooks. 
+
+Next, edit the `/etc/rc.local` file and add the following line before `exit 0`:
+
+```
+su ubuntu -c 'bash /home/ubuntu/jupyter_start.sh'
+```
+
