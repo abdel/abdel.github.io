@@ -1,7 +1,10 @@
 ---
 layout: page
-permalink: /researach/
+title: Research
+permalink: /research/
+published: true
 ---
+
 [[PDF](https://i.abdel.me/ldW2D8WHtX/autonomous-vehicles-are-we-ready.pdf)] Autonomous Vehicles: Are We Ready?, Abdelrahman Ahmed, Report, June 2016
 
 [[PDF](https://i.abdel.me/rEzfKEYm2d/autonomous-vehicles-an-ethical-and-moral-dilemma.pdf)] Autonomous Vehicles: An Ethical and Moral Dilemma, Abdelrahman Ahmed, Literature Review, June 2016
