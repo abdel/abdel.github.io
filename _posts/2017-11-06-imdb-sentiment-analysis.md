@@ -20,11 +20,7 @@ I experimented with different model architectures: Recurrent neural network (RNN
 
 The models were trained on an Amazon P2 instance which I originally setup for the fast.ai course. I experimented with a number of different hyperparameters until a decent result was achieved which surpassed the model by Maas et al. Using my configurations, the CNN model clearly outperformed the other models.
 
-| Model | Training Speed | Test Accuracy | F1 Score (Macro) | F1 Score (Micro) |
-| ----- |:--------------:|:-------------:|:----------------:|:----------------:|
-| RNN   | 15 minutes     | 82.74%        | 0.8270           | 0.8274           |
-| CNN   | 1 minute       | 89.02%        | 0.8901           | 0.8902           |
-| RCNN  | 16 minutes     | 83.58%        | 0.8357           | 0.8357           |
+![Model results](/assets/imdb_sentiment_results.png)
 
 The model architectures and parameters can be found in the Jupyter notebooks on the [GitHub repository](https://github.com/abdel/imdb-sentiment-analysis/tree/master/notebooks).
 
