@@ -51,7 +51,7 @@ The web application was created using Flask and deployed to Heroku. The applicat
 
 ![Preview of web application](/assets/imdb_sentiment_webapp.png)
 
-The source code for the web application can also be found in the [GitHub repository](https://github.com/abdel/imdb-sentiment-analysis/tree/master/webapp). A demo of the web application is available on [Heroku](https://imdb-sentiment-analysis.herokuapp.com).
+The source code for the web application can also be found in the [GitHub repository](https://github.com/abdel/imdb-sentiment-analysis/tree/master/webapp). A demo of the web application is available on [Heroku](https://imdb-sentiment-analysis.herokuapp.com). Feel free to let me know if there are any improvements that can be made!
 
 ### Resources
 - [Source Code](https://github.com/abdel/imdb-sentiment-analysis)
