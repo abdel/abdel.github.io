@@ -8,6 +8,9 @@ published: true
 [[PDF](https://i.abdel.me/qtM8V2s4Zp/Continuous_Learning.pdf)] Continuous Learning<br>
 Abdelrahman Ahmed, *October 2017*
 
+[[PDF](https://i.abdel.me/3oDb3JTBcC/Sentiment-Analysis-on-Movie-Reviews.pdf)] Sentiment Analysis on Movie Reviews<br>
+Abdelrahman Ahmed, Isabella Harpa, *October 2017*
+
 [[PDF](https://i.abdel.me/27mNKway2Z/selfdriving-cars-ethical-analysis.pdf)] Self-Driving Cars: Ethical Analysis<br>
 Abdelrahman Ahmed, *September 2017*
 
