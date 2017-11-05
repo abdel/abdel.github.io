@@ -11,7 +11,7 @@ I was introduced to Keras through the [fast.ai](http://course.fast.ai/) Part 1 c
 ### Data Exploration & Preparation
 The dataset contains 50,000 movie reviews in total with 25,000 allocated for training and another 25,000 for testing. Some basic data exploration was performed to examine the frequency of words, and the most frequent unigrams, bigrams and trigrams. This was useful to kind of get a sense of what really makes a movie review positive or negative.
 
-![Word cloud showcasing word frequencies](../assets/imdb_sentiment_wordcloud.png)
+![Word cloud showcasing word frequencies](/assets/imdb_sentiment_wordcloud.png)
 
 The dataset was converted to lowercase for consistency and to reduce the number of features. The movie reviews were also converted to tokenized sequences where each review is converted into words (features). The word frequency was identified, and common stopwords such as 'the' were removed. A dictionary was then created where each word is mapped to a unique number, and the vocabulary was also limited to reduce the number of parameters. Additional sequence processing techniques were used with Keras such as sequence padding.
 
@@ -53,7 +53,7 @@ with graph.as_default():
 
 The web application was created using Flask and deployed to Heroku. The application accepts any text input from the user, which is then preprocessed and passed to the model. The model can then predict the class, and return the predicted class and probability back to the application. The predicted sentiment is then immediately shown to the user on screen.
 
-![Preview of web application](../assets/imdb_sentiment_webapp.png)
+![Preview of web application](/assets/imdb_sentiment_webapp.png)
 
 The source code for the web application can also be found in the [GitHub repository](https://github.com/abdel/imdb-sentiment-analysis/tree/master/webapp). A demo of the web application is available on [Heroku](https://imdb-sentiment-analysis.herokuapp.com).
 
