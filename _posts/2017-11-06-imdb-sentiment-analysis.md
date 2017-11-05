@@ -6,7 +6,7 @@ excerpt: Taking a small project from exploration to production
 layout: post
 ---
 
-I was introduced to Keras through the [fast.ai](http://course.fast.ai/) Part 1 course, and I really enjoyed using it. I was interested in exploring it further by utilising it in a personal project. I had an opportunity to do this through a university project where we are able to research a machine learning topic of our choice. I decided to explore and build a model for sentiment analyis on movie reviews using the [Large Movie Dataset](http://ai.stanford.edu/~amaas/data/sentiment/) by Maas et al. I also took this a bit further, and worked on deploying the Keras model alongside a web application.
+I was introduced to Keras through the [fast.ai](http://course.fast.ai/) Part 1 course, and I really enjoyed using it. I was interested in exploring it further by utilising it in a personal project. I had an opportunity to do this through a university project where we are able to research a machine learning topic of our choice. I decided leverage what I learned from the fast.ai course, and explore and build a model for sentiment analyis on movie reviews using the [Large Movie Dataset](http://ai.stanford.edu/~amaas/data/sentiment/) by Maas et al. I also wanted to take it a bit further, and worked on deploying the Keras model alongside a web application.
 
 ### Data Exploration & Preparation
 The dataset contains 50,000 movie reviews in total with 25,000 allocated for training and another 25,000 for testing. Some basic data exploration was performed to examine the frequency of words, and the most frequent unigrams, bigrams and trigrams. This was useful to kind of get a sense of what really makes a movie review positive or negative.
