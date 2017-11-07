@@ -61,9 +61,11 @@ If you've generated a password, there should be a `jupyter_notebook_config.json`
 In order to get the notebook up and running in the browser, you will either need to adjust the security group associated with your EC2 instance or utilise SSH tunneling.
 
 **Security Group**
+
 Edit the security group for your EC2 instance and add a new rule to allow the following ports: `8888-8898` with TCP as the protocol and `0.0.0.0/0` as the source for the rule. You should now be able to access your notebooks via http://EC2_INSTANCE_IP:8888/
 
 **SSH Tunnelling**
+
 Alternatively, you can use SSH tunnelling which will let you open the notebook via localhost by binding the port locally. This can be achieved using `ssh -i ~/.ssh/<KEY_NAME.pem> ubuntu@<EC2_INSTANCE_IP> -L 8888:127.0.0.1:8888` where `KEY_NAME` is the name of your keypair that you downloaded from Amazon, and `EC2_INSTANCE_IP` is the IP address of your instance.
 
 You should now be able to access the notebook using http://127.0.0.1:8888/. Please note that you'll need to maintain the SSH connection for this to work properly.
@@ -80,7 +82,10 @@ export PATH="$PATH:PATH_TO_ANACONDA"
 jupyter notebook --notebook-dir=/home/ubuntu/ --profile=nbserver > /tmp/ipynb.out 2>&1 &
 ```
 
-If you're using the AWS Deep Learning AMI, change `PATH_TO_ANACONDA` to `/home/ubuntu/anaconda3/bin` and if you're using the fast.ai AMI instead, change `PATH_TO_ANACONDA` to `/home/ubuntu/src/anaconda3/bin`. You can also change `notebook-dir` to the location of your Jupyter notebooks. 
+- For AWS Deep Learning AMI, change `PATH_TO_ANACONDA` to `/home/ubuntu/anaconda3/bin`
+- For fast.ai AMI, change `PATH_TO_ANACONDA` to `/home/ubuntu/src/anaconda3/bin`.
+
+You can also change `notebook-dir` to the location of your Jupyter notebooks. 
 
 Next, edit the `/etc/rc.local` file and add the following line before `exit 0`:
 
