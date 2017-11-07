@@ -1,6 +1,6 @@
 ---
 published: true
-title: 'AWS Deep Learning AMI with Keras'
+title: 'Tips for using AWS Deep Learning AMI'
 date: '2017-09-28'
 excerpt: A few tips for using the AWS Deep Learning AMI
 draft: false
@@ -92,5 +92,21 @@ Next, edit the `/etc/rc.local` file and add the following line before `exit 0`:
 ```
 su ubuntu -c 'bash /home/ubuntu/jupyter_start.sh'
 ```
+
+Since Jupyter will now run as a background process, you may find it annoying to restart/stop the Jupyter process. I have created additional scripts that aim to address this problem.
+
+**jupyter_stop.sh**
+
+Create `jupyter_stop.sh` in your home directory and add in the following `pkill jupyter`. Ensure the script is executable using `chmod +x jupyter_stop.sh`. The `pkill` command is a great way to kill a process without necessarily digging into the `ps aux` output and finding the process ID.
+
+**jupyter_restart.sh**
+
+This script will simply call the two scripts we created earlier. Create `jupyter_restart.sh` in your home directory and add the following. You should also ensure that the script is executable using `chmod +x`.
+```
+/home/ubuntu/jupyter_stop.sh
+/home/ubuntu/jupyter_start.sh
+```
+
+You can now easily call `jupyter_stop.sh` or `jupyter_restart.sh` whenever you want, and `jupyter_start.sh` should be called automatically on reboot!
 
 Let me know if you encounter any issues, or have any additional useful tips!
