@@ -5,7 +5,6 @@ date: '2018-01-20'
 excerpt: Tips for learning and tackling procrastination
 layout: post
 ---
-# Learning How to Learn
  I recently completed a course on Coursera called [Learning How to Learn](https://www.coursera.org/learn/learning-how-to-learn). It provides some useful insight into how the brain stores memories and how we can exploit that to learn better. Instead of giving a broad summary of the course, I wanted to share some key insights that I personally found useful.
 
 ## Tips for Learning
@@ -30,7 +29,7 @@ There are a few things mentioned in the course that I realised I occasionally di
 This is why it’s important to balance your study and deliberately practice more difficult problems to ensure that you *really* get it.
 
 ## Conclusion
-I enjoyed the course and there was a lot more useful information that I’ve not mentioned here about memory and learning, so it’s worth checking out. You can also take a look at this nicely organised [summary](https://docs.google.com/document/d/1GVYaVOVT2G9MS6ku6tLjhvoMazh7rWdqUu0Kts5C3Fc) .
+I enjoyed the course and there was a lot more useful information that I’ve not mentioned here about memory and learning, so it’s worth checking out. You can also take a look at this nicely organised [summary](https://docs.google.com/document/d/1GVYaVOVT2G9MS6ku6tLjhvoMazh7rWdqUu0Kts5C3Fc).
 
 ## Resources
 - [Brain Facts](https://brainfacts.org/)
