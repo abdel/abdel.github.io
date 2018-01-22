@@ -53,6 +53,9 @@ I would definitely recommend checking out [fast.ai](https://course.fast.ai/) if 
 
 ## References
 [1] Smith, L. N. 2015, Cyclical Learning Rates for Training Neural Networks, *arXiv preprint [arXiv:1506.01186](https://arxiv.org/abs/1506.01186)*.
+
 [2] Loshchilov, I. & Hutter, F. 2016, Stochastic Gradient Descent with Warm Restarts, *arXiv preprint [arXiv:1608.03983](https://arxiv.org/abs/1608.03983)*.
+
 [3] Huang, G., Li, Y. & Pleiss, G. 2017, Snapshots Ensemble: Train 1, get M for free, *arXiv preprint [arXiv:1704.00109](https://arxiv.org/abs/1704.00109)*.
+
 [4] Howard, J. & Ruder, S. 2017, Fine-tuned Language Models for Text Classification, *arXiv preprint [arXiv:1801.06146](https://arxiv.org/abs/1801.06146)*.
