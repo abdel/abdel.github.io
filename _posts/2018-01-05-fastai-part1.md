@@ -5,12 +5,12 @@ date: '2018-01-05'
 excerpt: Insights & best practices from the course
 layout: post
 ---
-I recently completed the new edition of the [fast.ai](http://course.fast.ai/) Part 1 course which was available via livestream for individuals who were accepted into the International Fellowship program. Throughout the course, we got to not only build state-of-the-art for models for image classification, language, sentiment analysis, structured data and recommender systems, but also understand what’s going on behind the scenes. I thought it would be useful share some of the new ideas that I was not aware of prior to the start of the course.
+I recently completed the new edition of the [fast.ai](http://course.fast.ai/) Part 1 course which was available for individuals who were accepted into the International Fellowship program. Throughout the course, we got to not only build state-of-the-art for models for image classification, language, sentiment analysis, structured data and recommender systems, but also understand what’s going on behind the scenes. I thought it would be useful share some useful insights and best practices that I was not really aware of prior to the start of the course.
 
 ## Cyclical Learning Rates
 Smith (2015) described a new method in [1], cyclical learning rates, for setting the learning rate without the need to experimentally find the best values for the global learning rates. Alternatively to a monotonically reducing the learning rate, this new method varies learning rate between reasonable boundary values. The paper also introduced a way to estimate these reasonable boundaries.
 
-The fast.ai library takes advantage of this technique and one can easily search for an optimal learning rate using the folllowing code snippet. For a full example, check out this introductory notebook from course.
+The fast.ai library takes advantage of this technique and allows you to easily search for an optimal learning rate, see the folllowing code snippe or this [introductory notebook](https://github.com/fastai/fastai/blob/master/courses/dl1/lesson1.ipynb) from course.
 
 	# Setup model
 	learn = ...
@@ -25,7 +25,7 @@ The fast.ai library takes advantage of this technique and one can easily search 
 	learn.sched.plot()
 
 ## Stochastic Gradient Descent with Restarts
-Building on work from Smith and others, Loshchilov & Hutter introduced "Stochastic Gradient Descent with Warm Restarts" in [2]. The method introduced in the paper, cosine annealling, where the learning rate is decreased along the cosine function. This repeats in cycles, where at the start of each cycle it starts with the maximum value. A cycle can be made longer than the previous cycles by using a constant factor `T_mul`.
+Building on work from Smith and others, Loshchilov & Hutter (2016) introduced "Stochastic Gradient Descent with Warm Restarts" in [2]. The method introduced in the paper, cosine annealling, where the learning rate is decreased along the cosine function. This repeats in cycles, where at the start of each cycle it starts with the maximum value. A cycle can be made longer than the previous cycles by using a constant factor `T_mul`.
 
 This is then taken further by Huang, Li and Pleiss (2017) in [3] to get even better results with an ensemble of neural networks at the cost of one. This is achieved by saving the weights after each cycle in SGDR, and add N networks to the ensemble based on the last N cycles. Essentially the model “undergoes several learning rate annealing cycles, converging to and escaping from multiple local minima".
 
@@ -33,14 +33,13 @@ This also already implemented in the fast.ai library, and can be easily done dur
 
 	learn.fit(learning_rate, epochs, cycle_len=1, cycle_mult=3)`
 
-## Fine-tuning on Language Models
-A common technique used in creating text classification models is using standard pre-trained word embeddings, such as GloVe and word2vec. An alternative approach introduced in the [fourth lesson](https://github.com/fastai/fastai/blob/master/courses/dl1/lesson4-imdb.ipynb) is to create a language model based on the training dataset you intend to use, so the model can first understand the structure of the dataset before using it for classification. The vocabulary and encoder portion of the language model can then be re-used for the classification task, in this case, for analysing sentiment analysis on IMDb movie reviews. I am planning a follow up to my [previous article](https://abdel.me/2017/11/06/imdb-sentiment-analysis/) on sentiment analysis to explore this further and improve my existing model.
+## Fine-tuning for Text Classification
+A common technique used in creating text classification models is using standard pre-trained word embeddings, such as GloVe and word2vec. An alternative approach introduced in the [fourth lesson](https://github.com/fastai/fastai/blob/master/courses/dl1/lesson4-imdb.ipynb) is to create a language model based on the training dataset you intend to use, so the model can first understand the structure of the dataset before using it for classification. The vocabulary and encoder portion of the language model can then be fine-tuned for the classification task, in this case, analysing sentiment analysis on IMDb movie reviews. I am planning a follow up to my [previous article](https://abdel.me/2017/11/06/imdb-sentiment-analysis/) on sentiment analysis to explore this further and improve my existing model.
 
-**Update (18/01/2018):** 
-This technique was actually explored further in a recent paper "Fine—tuned Language Models for Text Classification" by Howard and Ruder [4].
+**Update (18/01/2018):** This technique was explored further in a recent paper "Fine-tuned Language Models for Text Classification" by Howard and Ruder [4].
 
 ## Common Techniques
-As mentioned previously, the focus of the article was on key topics that are relatively new and I was not aware of them prior to starting the course. However, it’s still worth highlighting the following topics as they’re important and have become standard practices available in most of the available frameworks.
+As mentioned previously, the focus of the article was on key topics that are relatively new. However, it’s still worth highlighting the following topics as they’re important and have become standard practices available in most of the available frameworks.
 
 ### Transfer Learning
 Transfer Learning transformed the field of computer vision, which I have [previously](https://i.abdel.me/qtM8V2s4Zp/Continuous_Learning.pdf) mentioned. This approach works by utilising an existing neural network architecture, such as ResNet, that was trained on a different problem, in this case ImageNet. The pre-trained model can then be ‘fine-tuned’ on a different problem, by ‘freezing’ the earlier layers and replacing the last layer to fit your problem. For example, taking an ImageNet model that classifies 1000 categories, and changing the last layer to classify 2 categories. There is a trade-off with unfreezing more layers,  depending the architecture and problem, as the more you unfreeze, the more learned features you are losing from the pre-trained model.
