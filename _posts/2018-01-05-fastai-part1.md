@@ -1,11 +1,11 @@
 ---
 published: true
-title: 'Key Takeaways from fast.ai Part 1'
+title: 'Key Takeaways from Practical Deep Learning for Coders'
 date: '2018-01-05'
 excerpt: Insights & best practices from the course
 layout: post
 ---
-I recently completed the new edition of the [fast.ai](http://course.fast.ai/) Part 1 course which was available for individuals who were accepted into the International Fellowship program. Throughout the course, we got to not only build state-of-the-art for models for image classification, language, sentiment analysis, structured data and recommender systems, but also understand what’s going on behind the scenes. I thought it would be useful share some useful insights and best practices that I was not really aware of prior to the start of the course.
+I recently completed the new edition of the [Practical Deep Learning for Coders](http://course.fast.ai/) course which was available for individuals who were accepted into the International Fellowship program. Throughout the course, we got to not only build state-of-the-art for models for image classification, language, sentiment analysis, structured data and recommender systems, but also understand what’s going on behind the scenes. I thought it would be useful share some useful insights and best practices that I was not really aware of prior to the start of the course.
 
 ## Cyclical Learning Rates
 Smith (2015) described a new method in [1], cyclical learning rates, for setting the learning rate without the need to experimentally find the best values for the global learning rates. Alternatively to a monotonically reducing the learning rate, this new method varies learning rate between reasonable boundary values. The paper also introduced a way to estimate these reasonable boundaries.
