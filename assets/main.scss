@@ -74,9 +74,12 @@ $site-header-height: 60px;
 }
 
 .social-media-list {
+  li {
+    display: inline;
+  }
+  
   li + li {
     padding-top: 5px;
-    display: inline;
   }
 }
 
