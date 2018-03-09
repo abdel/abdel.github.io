@@ -76,7 +76,16 @@ $site-header-height: 60px;
 .social-media-list {
   li + li {
     padding-top: 5px;
+    display: inline;
   }
+}
+
+.footer-left {
+  float: left;
+}
+
+.footer-right {
+  float: right;
 }
 
 /* Home styles */
