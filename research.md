@@ -6,9 +6,9 @@ published: true
 ---
 
 ### Papers
-* **Sparse Unsupervised Capsules Generalize Better** [[PDF](https://arxiv.org/pdf/1804.06094)] [[Code](https://github.com/ProjectAGI/sparse-unsupervised-capsules)]<br>
+* **Sparse Unsupervised Capsules Generalize Better** [[PDF](https://arxiv.org/pdf/1804.06094.pdf)] [[Code](https://github.com/ProjectAGI/sparse-unsupervised-capsules)]<br>
 David Rawlinson, Abdelrahman Ahmed, Gideon Kowadlo<br>
-*arXiv:1804.06094*, 2018
+*[arXiv:1804.06094](https://arxiv.org/abs/1804.06094) [cs.CV]*, 2018
 
 ### Reports
 Some of my work during my studies at the University of Technology Sydney.
