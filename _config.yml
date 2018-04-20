@@ -15,7 +15,7 @@
 # in the templates via {{ site.myvariable }}.
 title: Abdelrahman Ahmed
 email: abdel@abdel.me
-description: "Musings on learning, softwar and artifical intelligence."
+description: "Musings on learning, software and artifical intelligence."
 baseurl: "/" # the subpath of your site, e.g. /blog
 url: "https://abdel.me" # the base hostname & protocol for your site, e.g. http://example.com
 
