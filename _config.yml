@@ -38,6 +38,7 @@ permalink: pretty
 theme: minima
 plugins:
   - jekyll-feed
+  - jekyll-sitemap
 
 highlighter: rouge
 kramdown:
