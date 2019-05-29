@@ -6,7 +6,11 @@ published: true
 ---
 
 ### Papers
-* **Sparse Unsupervised Capsules Generalize Better** [[PDF](https://arxiv.org/pdf/1804.06094.pdf)] [[Code](https://github.com/ProjectAGI/sparse-unsupervised-capsules)]<br>
+* **Learning distant cause and effect using only local and immediate credit assignment** [[PDF](https://arxiv.org/pdf/1905.11589)]<br>
+David Rawlinson, Abdelrahman Ahmed, Gideon Kowadlo<br>
+*[arXiv:1905.11589](https://arxiv.org/abs/1905.11589) [stat.ML]*, 2019
+
+* **Sparse Unsupervised Capsules Generalize Better** [[PDF](https://arxiv.org/pdf/1804.06094)] [[Code](https://github.com/ProjectAGI/sparse-unsupervised-capsules)]<br>
 David Rawlinson, Abdelrahman Ahmed, Gideon Kowadlo<br>
 *[arXiv:1804.06094](https://arxiv.org/abs/1804.06094) [cs.CV]*, 2018
 
