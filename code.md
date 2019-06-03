@@ -5,6 +5,8 @@ permalink: /code/
 published: true
 ---
 
+Additional projects and contributions can be found on my [GitHub profile](https://github.com/abdel).
+
 ### Projects
 - [IMDb Sentiment Analysis](https://github.com/abdel/imdb-sentiment-analysis): an application that performs sentiment analysis using a convolutional neural network trained on IMDb movie reviews
 - [Brackets and Ladders](https://github.com/abdel/brackets-and-ladders): an application that allows gamers to setup teams and participate in tournaments
