@@ -5,7 +5,8 @@ permalink: /research/
 published: true
 ---
 
-### Papers
+### Publications
+
 * **Learning distant cause and effect using only local and immediate credit assignment** [[PDF](https://arxiv.org/pdf/1905.11589)]<br>
 David Rawlinson, Abdelrahman Ahmed, Gideon Kowadlo<br>
 *[arXiv:1905.11589](https://arxiv.org/abs/1905.11589) [stat.ML]*, 2019
@@ -14,29 +15,12 @@ David Rawlinson, Abdelrahman Ahmed, Gideon Kowadlo<br>
 David Rawlinson, Abdelrahman Ahmed, Gideon Kowadlo<br>
 *[arXiv:1804.06094](https://arxiv.org/abs/1804.06094) [cs.CV]*, 2018
 
-### Reports
-Some of my work during my studies at the University of Technology Sydney.
+You can also refer to my [Google Scholar](https://scholar.google.com.au/citations?user=E6ZpQZoAAAAJ&hl=en) profile.
 
-* **Continuous Learning** [[PDF](https://i.abdel.me/qtM8V2s4Zp/Continuous_Learning.pdf)] <br>
-Abdelrahman Ahmed<br>
-*University of Technology Sydney*, 2017
+### Other Articles
+A selection of articles I've written elsewhere on the web.
 
-* **Sentiment Analysis on Movie Reviews** [[PDF](https://i.abdel.me/3oDb3JTBcC/Sentiment-Analysis-on-Movie-Reviews.pdf)] [[Code](https://github.com/abdel/imdb-sentiment-analysis)]<br>
-Abdelrahman Ahmed, Isabella Harpa<br>
-*University of Technology Sydney*, 2017
-
-* **Self-Driving Cars: Ethical Analysis** [[PDF](https://i.abdel.me/27mNKway2Z/selfdriving-cars-ethical-analysis.pdf)]<br>
-Abdelrahman Ahmed<br>
-*University of Technology Sydney*, 2017
-
-* **Literature Review: A Distributional Perspective on Reinforcement Learning** [[PDF](https://i.abdel.me/IfWXoMNc71/Lit_Review__Distributional_RL.pdf)]<br>
-Abdelrahman Ahmed<br>
-*University of Technology Sydney*, 2017
-
-* **Autonomous Vehicles: An Ethical and Moral Dilemma** [[PDF](https://i.abdel.me/rEzfKEYm2d/autonomous-vehicles-an-ethical-and-moral-dilemma.pdf)]<br>
-Abdelrahman Ahmed<br>
-*University of Technology Sydney*, 2016
-
-* **Are We Ready for Autonomous Vehicles?** [[PDF](https://i.abdel.me/ARxTA0iHKa/Autonomous_Vehicles__Are_We_Ready_.pdf)]<br>
-Abdelrahman Ahmed<br>
-*University of Technology Sydney*, 2016
+* [Optimization using Adam on Sparse Tensors](https://agi.io/2019/02/28/optimization-using-adam-on-sparse-tensors/) &mdash; February 28, 2019
+* [Experiment Infrastructure at Project AGI](https://agi.io/2018/09/12/experiment-infrastructure-at-project-agi/) &mdash; September 12, 2018
+* [Choosing a Machine Learning Framework in 2018](https://agi.io/2018/02/09/survey-machine-learning-frameworks/) &mdash; February 9, 2018
+* [Literature Review: ‘A Distributional Perspective on Reinforcement Learning’](https://agi.io/2017/10/08/literature-review-a-distributional-perspective-on-reinforcement-learning/) &mdash; October 8, 2017
