@@ -7,6 +7,10 @@ published: true
 
 ### Publications
 
+* **AHA! an 'Artificial Hippocampal Algorithm' for Episodic Machine Learning** [[PDF](https://arxiv.org/pdf/1909.10340)]<br>
+Gideon Kowadlo, Abdelrahman Ahmed, David Rawlinson<br>
+*[arXiv:1909.10340](https://arxiv.org/abs/1909.10340) [cs.NE]*, 2019
+
 * **Learning distant cause and effect using only local and immediate credit assignment** [[PDF](https://arxiv.org/pdf/1905.11589)]<br>
 David Rawlinson, Abdelrahman Ahmed, Gideon Kowadlo<br>
 *[arXiv:1905.11589](https://arxiv.org/abs/1905.11589) [stat.ML]*, 2019
