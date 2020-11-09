@@ -7,6 +7,14 @@ published: true
 
 ### Publications
 
+* **Unsupervised One-shot Learning of Both Specific Instances and Generalised Classes with a Hippocampal Architecture** [[PDF](https://arxiv.org/pdf/2010.15999)]<br>
+Gideon Kowadlo, Abdelrahman Ahmed, David Rawlinson<br>
+*Australasian Joint Conference on Artificial Intelligence*, 2020
+
+* **Use of an artificial hippocampal algorithm for one-shot and continual learning** [[PDF](https://meetings.cshl.edu/posters/naisys20/images/viewer.html?file=naisys_20_109.pdf)]<br>
+Gideon Kowadlo, Abdelrahman Ahmed, David Rawlinson<br>
+*Poster presented at From Neuroscience to Artificially Intelligent Systems*, 2020
+
 * **AHA! an 'Artificial Hippocampal Algorithm' for Episodic Machine Learning** [[PDF](https://arxiv.org/pdf/1909.10340)]<br>
 Gideon Kowadlo, Abdelrahman Ahmed, David Rawlinson<br>
 *[arXiv:1909.10340](https://arxiv.org/abs/1909.10340) [cs.NE]*, 2019
